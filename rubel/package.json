@@ -1,0 +1,11 @@
+{
+  "name": "learn-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "tsc && node build/app.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
