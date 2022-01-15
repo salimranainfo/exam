@@ -44,7 +44,7 @@ const person1 = {
       const person = {
         firstName : "",
         lastName : " ",
-        isMale: false,
+        isMale : false,
         fullName2: function (firstName: string, lastName: string) {
         return firstName + " " + lastName
         }
@@ -60,7 +60,7 @@ const person1 = {
       let a:number = 50, b: number= 100
       if (a>b)
       {
-        console.log("a is greter than b")
+        console.log("a is gretar than b")
       } 
       else
       {
