@@ -10,6 +10,20 @@ const lastName: string = "Rubel"
 let male: boolean = true
 const age: number = 30
 
+interface Student {
+  name: string
+  roll: number
+  level: string
+  subjects: string[]
+}
+
+const rubel: Student = {
+  name: "Muhammad Rubel",
+  roll: 25,
+  level: "ten",
+  subjects: ["Bangla", "English"]
+}
+
 
 // Create 5 functions
 //  - Cretae 3 functions in 3 ways of writing functions

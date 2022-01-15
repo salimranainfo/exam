@@ -7,18 +7,8 @@
 //  - Array
 var firstName = "Muhammad";
 var lastName = "Rubel";
+var male = true;
 var age = 30;
-var isMale = true;
-var person1 = {
-    firstName: '',
-    lastName: '',
-    age: 30,
-    isMale: true,
-    getFullName: function () {
-        return this.firstName + " " + this.lastName;
-    }
-};
-var arrayOne = ['Rubel', 10, true];
 // Create 5 functions
 //  - Cretae 3 functions in 3 ways of writing functions
 //  - Create one return type function
@@ -30,7 +20,6 @@ var fullName = function () {
 var simpleLog = function (text) {
     console.log(text);
 };
-// declaration
 function doSomething(a, b) {
     return a + b;
 }
@@ -63,8 +52,8 @@ console.log(personType);
 for (var i = 0; i > 10; i++) {
     console.log(i);
 }
-for (var prop in person1) {
-    console.log(person1[prop]);
+for (var prop in student) {
+    console.log(student[prop]);
 }
 for (var _i = 0, arrayOne_1 = arrayOne; _i < arrayOne_1.length; _i++) {
     var item = arrayOne_1[_i];
