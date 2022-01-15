@@ -7,29 +7,8 @@
 //  - Array
 const firstName: string = "Muhammad"
 const lastName: string = "Rubel"
+let male: boolean = true
 const age: number = 30
-let isMale: boolean = true
-
-interface Person {
-  firstName: string,
-  lastName?: string,
-  age?: number,
-  isMale: boolean
-  getFullName(): string
-}
-
-const person1: Person = {
-  firstName: '',
-  lastName: '',
-  age: 30,
-  isMale: true,
-  getFullName() {
-    return this.firstName + " " + this.lastName
-  }
-}
-
-type myArray = string|number|boolean|object
-const arrayOne: myArray[] = ['Rubel', 10, true]
 
 
 // Create 5 functions
@@ -83,8 +62,8 @@ for(let i = 0; i > 10; i++) {
   console.log(i);  
 }
 
-for (let prop in person1) {
-  console.log(person1[prop]);  
+for (let prop in student) {
+  console.log(student[prop]);  
 }
 
 for (let item of arrayOne) {
